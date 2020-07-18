@@ -1,7 +1,48 @@
 <!--pages/card/card.wxml-->
 <view class="card">
  <view class="card-container">
-  <view class="section-userInfo"></view>
+  <view class="section-userInfo">
+   <view class="userInfo_top"> <!--图片区域-->
+    <image src="../../images/lisa.png" alt=""></image>
+   </view>
+   <view class="userInfo_bottom">
+    <view>
+     <view class="userInfo_name">
+      <text>Ailsa</text>
+      <image src="../../images/girl.png"></image>
+     </view>
+    </view>
+    <view class="hobby" style="background-color:#48a6fd">
+     <text>开朗</text>
+    </view>
+    <view class="hobby" style="background-color:#1dca42">
+     <text>自由职业</text>
+    </view>
+    <view class="hobby" style="background-color:#fb8800">
+     <text>爱折腾</text>
+    </view>
+
+    
+    <view wx:for="{{msgs}}" wx:key="{{msgs}}">
+     <view class="items">
+      <view class="imgs">
+       <image src="{{item.imgUrl}}"></image>
+      </view>
+      <view class="message">
+       <text>{{item.message}}</text>
+      </view>
+     </view>
+    </view>
+
+    <view class="right_top">
+     <image src="../../images/ewm.png"></image>
+    </view>
+    <view class="right_bottom">
+     <image src="../../images/envelope.png"></image>
+    </view>
+   </view>
+  </view>
+
   <view class="section-watch"></view>
   <view class="section-userInfo"></view>
   <!-- 后续的section -->
