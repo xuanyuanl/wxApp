@@ -1,0 +1,9 @@
+<!--pages/card/card.wxml-->
+<view class="card">
+ <view class="card-container">
+  <view class="section-userInfo"></view>
+  <view class="section-watch"></view>
+  <view class="section-userInfo"></view>
+  <!-- 后续的section -->
+ </view>
+</view>
