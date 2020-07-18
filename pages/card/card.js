@@ -5,7 +5,28 @@ Page({
   * 页面的初始数据
   */
  data: {
-
+  msgs:[
+   {
+    imgUrl:"../../images/定位.png",
+    message:"深圳市"
+   },
+   {
+    imgUrl:"../../images/领带.png",
+    message:"互联网"
+   },
+   {
+    imgUrl:"../../images/爱心.png",
+    message:"角色扮演"
+   },
+   {
+    imgUrl:"../../images/微信.png",
+    message:"luoqi741"
+   },
+   {
+    imgUrl:"../../images/电话.png",
+    message:"15017933191"
+   }
+  ]
  },
 
  /**

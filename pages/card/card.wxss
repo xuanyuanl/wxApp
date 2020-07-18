@@ -1,1 +1,262 @@
 /* pages/card/card.wxss */
+.card {
+    /* height: 500px; */
+    background-color: skyblue;
+    padding: 0 15px;
+}
+.section-watch {
+    width: 345px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px #a4a7a7;
+}
+/* 左边头像 */
+.picture {
+    font-size: 0;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.picture view {
+    /* float: left; */
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.picture view image {
+    width: 100%;
+    height: 100%;
+}
+/* 右边文字 */
+.accumulation {
+    display: inline-block;
+    margin-left: 20px;
+}
+.accumulation text {
+    display: inline-block;
+    font-size: 12px;
+}
+.accumulation .Icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.accumulation .Icon image {
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+/* 提供 */
+.section-Design {
+    /* display: inline-block; */
+    width: 345px;
+    height: 85px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px #a4a7a7;
+    /* overflow: hidden; */
+    padding-bottom: 10px;
+
+}
+.typeface {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 15px 0;
+    padding-left:10px;
+    
+}
+.section-Design .blue {
+    border-left: 3px solid #48a6fd;
+} 
+.section-word {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 10px ;
+}
+
+/* 需求 */
+.section-Design .green {
+    border-left: 3px solid #1dca42;
+} 
+
+/* 广告 */
+.section-advertisement {
+    margin-top: 17px;
+    width: 345px;
+    height: 90px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.section-advertisement image {
+    width: 100%;
+    height: 100%;
+}
+
+/* 个人品牌 */
+.section-brand {
+    width: 345px;
+    height: 161px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px #a4a7a7;
+}
+.section-brand .orange {
+    border-left: 3px solid #fb8800;
+}
+
+.roll {
+    width: 100%;
+    white-space: nowrap;
+}
+.roll view {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 12px;
+}
+.roll view image {
+    width: 100%;
+    height: 100%;
+}
+
+/* 编辑、分享 */
+.section-Button {
+    display: inline-block;
+    margin-top: 20px;
+}
+.section-Button .btn {
+    /* display: inline-block; */
+    float: left;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px -5px #a4a7a7;
+}
+.section-Button .btnImg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.section-Button .btn1 {
+    background-color: #fff;
+}
+.section-Button .btn1 view {
+    display: inline-block;
+}
+
+.section-Button .btn view {
+    font-weight: 400;
+    /* line-height: 50px; */
+}
+.section-Button .btn2 {
+    background-color: #48a6fd;
+}
+.section-Button .button-hover {
+    background-color: rgb(200, 110, 110);
+}
+/* .card{
+ padding: 15px;
+} */
+.card-container{
+ padding: 15px;
+ background-color: #f5fafe;
+}
+.section-userInfo{
+ position: relative;
+ background-color: #fff;
+ border-radius: 5px;
+ box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+ /* overflow: auto; */
+}
+.userInfo_top{
+ width: 100%;
+ height: 200px;
+ position: relative;
+ overflow: hidden;
+}
+.userInfo_top image{
+ width: 100%;
+}
+.userInfo_bottom{
+ padding: 10px;
+ overflow: auto;
+}
+.userInfo_name{
+ left: 10px;
+ position: relative;
+}
+.userInfo_name text{
+ 
+ position: relative;
+ font-size: 20px;
+}
+.userInfo_name image{
+ position: relative;
+ left: 10px;
+ width: 15px;
+ height: 15px;
+}
+.hobby{
+ position: relative;
+ float: left;
+ left: 5px;
+ padding: 5px 10px 5px 10px;
+ border-radius: 5px;
+ margin: 5px;
+}
+.hobby text{
+ font-size: 14px;
+ color: white;
+}
+.items{
+ position: relative;
+ width: 120px;
+ float: left;
+ color: #999999;
+ padding:5px 0 5px 3px;
+}
+.imgs{
+ float: left;
+}
+.imgs image{
+ display: block;
+ width: 25px;
+ height: 25px;
+}
+.message text{
+ font-size: 14px;
+}
+.right_top{
+ position: absolute;
+ bottom: 87px;
+ right: 20px;
+}
+.right_top image{
+ width: 50px;
+ height: 50px;
+}
+.right_bottom{
+ position: absolute;
+ bottom: -20px;
+ right: 5px;
+}
+.right_bottom image{
+ width: 90px;
+ height: 90px;
+}

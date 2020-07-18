@@ -1,9 +1,132 @@
 <!--pages/card/card.wxml-->
 <view class="card">
- <view class="card-container">
-  <view class="section-userInfo"></view>
-  <view class="section-watch"></view>
-  <view class="section-userInfo"></view>
-  <!-- 后续的section -->
- </view>
+    <view class="card-container">
+        <view class="section-userInfo">
+            <view class="userInfo_top">
+                <!--图片区域-->
+                <image src="../../images/lisa.png" alt=""></image>
+            </view>
+            <view class="userInfo_bottom">
+                <view>
+                    <view class="userInfo_name">
+                        <text>Ailsa</text>
+                        <image src="../../images/girl.png"></image>
+                    </view>
+                </view>
+                <view class="hobby" style="background-color:#48a6fd">
+                    <text>开朗</text>
+                </view>
+                <view class="hobby" style="background-color:#1dca42">
+                    <text>自由职业</text>
+                </view>
+                <view class="hobby" style="background-color:#fb8800">
+                    <text>爱折腾</text>
+                </view>
+
+
+                <view wx:for="{{msgs}}" wx:key="{{msgs}}">
+                    <view class="items">
+                        <view class="imgs">
+                            <image src="{{item.imgUrl}}"></image>
+                        </view>
+                        <view class="message">
+                            <text>{{item.message}}</text>
+                        </view>
+                    </view>
+                </view>
+
+                <view class="right_top">
+                    <image src="../../images/ewm.png"></image>
+                </view>
+                <view class="right_bottom">
+                    <image src="../../images/envelope.png"></image>
+                </view>
+            </view>
+        </view>
+
+        <!-- 观看信息 -->
+        <view class="section-watch">
+            <!-- 头像 -->
+            <view class="picture">
+                <view>
+                    <image class="" src="../../images/tx1.jpg" />
+                </view>
+                <view>
+                    <image class="" src="../../images/tx2.jpg" />
+                </view>
+                <view>
+                    <image class="" src="../../images/tx3.jpg" />
+                </view>
+            </view>
+            <!-- 累计多少人看过 -->
+            <view class="accumulation">
+                <text>
+                    今天2人，累计1092人看过我
+                </text>
+                <view class="Icon">
+                    <image class="" src="../../images/arrow.png" />
+                </view>
+            </view>
+        </view>
+
+        <!-- 提供 -->
+        <view class="section-Design">
+            <text class="typeface blue">提供</text>
+            <text class="section-word">软件设计、平面设计、产品设计、电商海报、商城装修、各种你可以想到</text>
+        </view>
+
+        <!-- 需求 -->
+        <view class="section-Design">
+            <text class="typeface green">需求</text>
+            <text class="section-word">软件设计、平面设计、产品设计、电商海报、商城装修、各种你可以想到</text>
+        </view>
+
+        <!-- 广告 -->
+        <view class="section-advertisement">
+            <image class="" src="../../images/guanggao.png" />
+        </view>
+
+        <!-- 个人品牌 -->
+        <view class="section-brand">
+            <text class="typeface orange">个人品牌</text>
+            <scroll-view class="roll" scroll-x>
+                <view class="">
+                    <image class="" src="../../images/logo1.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo2.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo3.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo4.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo5.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo6.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo7.jpg" />
+                </view>
+                <view class="">
+                    <image class="" src="../../images/logo8.jpg" />
+                </view>
+            </scroll-view>
+
+        </view>
+
+        <!-- 编辑 -->
+        <view class="section-Button">
+            <button class="btn btn1" hover-class='button-hover'>
+                <image class="btnImg" src="../../images/bianJ.png" />
+                <view class="edit">编辑</view>
+            </button>
+            <button class="btn btn2" hover-class='button-hover'>
+                <view class="share">分享名片</view>
+            </button>
+        </view>
+    </view>
 </view>
