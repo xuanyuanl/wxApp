@@ -1,1 +1,205 @@
-/* pages/hongbao/hongbao.wxss */
+
+.container{
+    background-color: #ffffff;
+    position: relative;
+    
+}
+.dbg{
+    background-color:#f5fafe;
+}
+.header_img .A{
+    width: 100%;
+    height: 42px;
+}
+.header_picture .B{
+
+    position: absolute;
+   top:25PX;
+   left: 50%;
+   border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%);
+    z-index: 99;
+    
+
+
+
+    
+
+}
+.header_bg{
+    background-color: #f5fafe;
+    width: 100%;
+    height: 169px;
+    position: relative;
+}
+ .header_bg .name{
+     position: absolute;
+     display: inline-block;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 15px;
+    top: 40px;
+    left: 47%;
+    
+    
+    
+    
+
+    
+
+}
+.wenzi{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 22px;
+    top:60px;
+    left: 115px;
+   
+    
+    
+
+    
+
+}
+.shuzi{
+    position: absolute;
+    display: inline-block;
+    width: 100;
+    height: 22px;
+    line-height: 22px;
+    font-size: 30px;
+    top: 85px;
+    left: 145px;
+  
+    
+
+    
+
+}
+.hongbao{
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    left: 10px;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #48a6fd;
+   
+}
+.tixian{
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    left: 150px;
+  
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color:#48a6fd;
+    /* padding-left: 150px; */
+}
+.zhuangfa{
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    left: 275px;
+   
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color:#48a6fd;
+    /* padding-left: 275px; */
+}
+.box1{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #999999;
+}
+.box_wenzi{
+    font-size: 10px;
+    color: #999999;
+    padding: 10px;
+
+}
+.box2{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #999999;
+    position: relative;
+}
+.damao{
+    padding: 10px;
+}
+.damao_wenzi1{
+    float: left;
+    font-size: 15px;
+    color:black;
+    margin-right: 5px;
+    
+}
+.damao_wenzi2{
+    float: left;
+    font-size: 15px;
+    color: #999999;
+    
+}
+.xiaomao{
+    padding: 10px;
+}
+.xiaomao_wenzi{
+    font-size: 10px;
+    color: #999999;
+    
+}
+.position{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top:24px;
+    left: 320px;
+}
+.box3{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #999999;
+    position: relative;
+}
+.damao1{
+    padding: 10px;
+}
+.damao1_wenzi1{
+    float: left;
+    font-size: 15px;
+    color:black;
+    margin-right: 5px;
+    
+}
+.damao1_wenzi2{
+    float: left;
+    font-size: 15px;
+    color: #999999;
+    
+}
+.xiaomao1{
+    padding: 10px;
+}
+.xiaomao1_wenzi{
+    font-size: 10px;
+    color: #999999;
+    
+}
+.position1{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top:24px;
+    left: 320px;
+}

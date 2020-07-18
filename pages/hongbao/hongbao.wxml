@@ -1,2 +1,65 @@
 <!--pages/hongbao/hongbao.wxml-->
-<text>pages/hongbao/hongbao.wxml</text>
+<!--pages/main/main.wxml-->
+<view class="container">
+    <view class="dbg">
+        <view class="header_img">
+            <image class="A" src="../../images/red-envelope.png" />
+        </view>
+        <view class="header_picture">
+            <image class="B" src="http://img.gexing.me/uploads/allimg/190325/1-1Z32514231I58.jpg">
+
+            </image>
+        </view>
+
+        <view class="header_bg">
+
+            <view class="name"> Ailsa</view>
+            <view class="wenzi">恭喜发财，大吉大利</view>
+            <view class="shuzi">12.31元</view>
+
+            <view class="header_wnezi">
+                <view class="hongbao">红包记录</view>
+                <view class="tixian">前去提现</view>
+                <view class="zhuangfa">转发好友</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="box1">
+        <view class="box_wenzi"> 共100个，已领取3个</view>
+    </view>
+
+
+    <view class="box2">
+        <view class="damao">
+            <view class="damao_wenzi1">拆红包</view>
+            <view class="damao_wenzi2">(浅浅的夏)</view>
+        </view>
+        <view class="xiaomao">
+            <view class="xiaomao_wenzi">2018/12/20/ 21:43</view>
+
+        </view>
+        <view class="position">5元</view>
+
+
+
+    </view>
+    <view class="box3">
+        <view class="damao1">
+            <view class="damao1_wenzi1">拆红包</view>
+            <view class="damao1_wenzi2">(浅浅的夏)</view>
+        </view>
+        <view class="xiaomao1">
+            <view class="xiaomao1_wenzi">2018/12/20/ 21:43</view>
+
+        </view>
+        <view class="position1">5元</view>
+    </view>
+
+
+
+
+
+
+
+</view>
